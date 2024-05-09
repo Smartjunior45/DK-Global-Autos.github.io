@@ -479,13 +479,19 @@
 
             <div class="wrapper">
 
-              <form action="" class="contact-form">
+              <form  action="https://formsubmit.co/068a58fa90ac9794bce7c8c1672714ff" method="POST" class="contact-form">
 
-                <input type="text" name="name" placeholder="Name" required class="contact-input">
+                <input type="text" name="name" required  placeholder="Name"  class="contact-input">
 
-                <input type="email" name="email" placeholder="Email" required class="contact-input">
+                <input type="email" name="email" required placeholder="Email"  class="contact-input">
 
-                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+                <textarea name="message" required placeholder="Message"  class="contact-input"></textarea>
+                <!--for multiples emails-->
+                <input type="hidden" name="_cc" value="smartjunior686@gmail.com,martinbright961@gmail.com">
+                <!--the web page it will direct them to -->
+                <!--<input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">-->
+                <!--To view in table form-->
+                <input type="hidden" name="_template" value="table">
 
                 <button type="submit" class="btn-submit">Submit Message</button>
 
